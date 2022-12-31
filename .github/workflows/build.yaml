@@ -25,4 +25,4 @@ jobs:
           ./mvnw frontend:install-node-and-npm
           ./mvnw frontend:npm
           ./mvnw frontend:webpack
-          ./mvnw verify
+          ./mvnw --batch-mode --no-transfer-progress -B verify
