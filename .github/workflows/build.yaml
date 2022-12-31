@@ -1,11 +1,6 @@
 name: CI Builds
 
-on:
-  push:
-    branches: [main]
-  pull_request:
-    paths:
-      - './**'
+on: [push, pull_request]
 
 jobs:
   run:
