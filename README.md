@@ -1,12 +1,16 @@
-# spring-boot-react-example
-frontend-maven-plugin
+# Spring Boot Frontend example
+
+[![CI Builds](https://github.com/jabrena/spring-boot-react-example/actions/workflows/build.yaml/badge.svg)](https://github.com/jabrena/spring-boot-react-example/actions/workflows/build.yaml)
+
+POC to review alternatives to combine modern frontend development 
+in combination with Spring Boot. [WIP]
 
 ```
 sdk env
 ./mvnw frontend:install-node-and-npm
 ./mvnw frontend:npm
 ./mvnw frontend:webpack
-./mvnw spring-boot:run
+just run || ./mvnw spring-boot:run
 ```
 
 ## References
